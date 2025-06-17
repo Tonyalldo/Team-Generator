@@ -1,0 +1,114 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background: linear-gradient(to right, #534b5a, #15063f); */
+  background-color: black;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 850px;
+  margin: auto;
+  background: #ffffffdd;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* h1 {
+  text-align: center;
+  background: linear-gradient(to right, #007cf0, #00dfd8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.2em;
+  margin-bottom: 30px;
+} */
+ h1 {
+  text-align: center;
+  /* background: linear-gradient(to right, #007cf0, #00dfd8); */
+  background-color: red;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-size: 2.2em;
+  margin-bottom: 30px;
+}
+
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #222;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 2px solid #ddd;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #007cf0;
+}
+
+button {
+  padding: 10px 15px;
+  /* background: linear-gradient(to right, #43e97b, #38f9d7); */
+  background-color: red;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+  /* background: linear-gradient(to right, #00c9ff, #92fe9d); */
+  background-color: blue;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #444;
+}
+
+.output {
+  margin-top: 30px;
+}
+
+.team {
+  margin-bottom: 25px;
+  background: #f1f1f1;
+  padding: 15px 20px;
+  border-left: 6px solid #ff7e5f;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.team h3 {
+  margin-top: 0;
+  color: #444;
+}
